@@ -19,7 +19,7 @@ This repository contains a **conceptual exploration** of a general formula for P
 - Explores **Conditional Subsets (C_P)**, activated only for specific problem instances.  
 - Proposes a conceptual complexity class **NNP (Non-reversible NP)**, highlighting non-injective mappings where reconstructing the input is computationally infeasible.  
 
-## Authorship & AI Disclosure
+## Authorship & Disclosure
 
 - All conceptual ideas, framework, and reasoning are **100% my own**.  
 - AI was used **only** to refine language, improve clarity, and organize presentation—not to generate the ideas themselves.
