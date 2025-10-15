@@ -1,0 +1,195 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage{titling}
+\usepackage{amsmath, amssymb, amsthm} % math expressions and set notation
+
+\title{\textbf{The Unfeasible General Formula for P vs NP}\\
+\large A Conceptual Framework on Conditional Subsets, Infinite Formulas, and Non-Reversibility \\
+\textbf{This is purely theoretical and conceptual; no formal proof is claimed.}}
+
+\author{Yuhenba Rizwan Shah \\ Age 14}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+
+\vspace{2cm}
+
+\begin{abstract}
+This work presents a conceptual exploration of a general formula for P vs NP, based on the following assumptions:
+
+\begin{itemize}
+    \item A general formula for P vs NP must, \textit{in principle}, contain \textit{every possible algorithm and method} to solve every problem instance.
+    \item Since each problem can have infinitely many solutions or approaches, the full set of solution methodologies, $\mathcal{S}$, is hypothesized to have cardinality $\ge 2^{\aleph_0}$, making the General Formula $G$ \textbf{too immense to be fully represented or computed by macro-scale physics}.
+    \item Only \textbf{conditional or selective subsets} ($\mathcal{C}_P \subset G$) are activated for specific problem instances $P$; inactive variables are effectively set to zero.
+    \item Finite problems can yield finite results because only the relevant subset is activated.
+    \item \textbf{Full utilization of $G$} requires an infinitely large set of problems—including repeated instances—since each problem can be solved in infinitely many ways.
+    \item A new conceptual class, NNP (Non-reversible NP), is introduced, characterized by \textbf{non-injective} (many-to-one) mappings, where reconstructing the input from the output is computationally infeasible.
+\end{itemize}
+
+This framework provides a conceptual bridge connecting computational complexity, fractal geometry, and theoretical physics.
+\end{abstract}
+
+\vfill
+
+\begin{center}
+\textit{Purpose: To provide a theoretical and quantitative exploration of P vs NP across mathematics, science, and physics, aiding future research with reference.}
+\end{center}
+
+\newpage
+
+\tableofcontents
+\thispagestyle{empty}
+
+\newpage
+
+\section{P vs NP: Assumptions for a General Formula}
+
+\noindent \textbf{General Formula Assumption:} We hypothesize a General Formula $G$, a conceptual operator capable of solving \textit{every} computational problem:
+
+\[
+G: \mathcal{P} \to \mathcal{S},
+\]
+
+where $\mathcal{P}$ is the set of all possible problems and $\mathcal{S}$ contains every conceivable algorithm, solution method, or formula. $G$ is \textbf{infinitely large}, containing all possible solution branches and approaches.
+
+\subsection{Conditional Activation of Subsets}
+
+For a finite problem instance $P \in \mathcal{P}$, only a \textbf{conditional subset} $\mathcal{C}_P \subset G$ is activated. All other variables remain zero, ensuring finite outputs. For example, in $x + y + z + z^2 + z^3 + \dots$, if the problem involves only $x$ and $y$, then $z$ and its powers do not contribute.
+
+\subsection{Fractals and Complexity}
+
+Conditional subsets $\mathcal{C}_P$ can be visualized as fractal-like structures embedded in the manifold of $G$. Each activated subset corresponds to the solution with minimal Big-O complexity, while inactive variables remain zero. This illustrates how infinite structures yield finite, computable results.
+
+\subsection{Full Utilization}
+
+The entire structure of $G$ is activated only over an infinite sequence of problem instances, revealing all solution branches. Finite problems activate only relevant paths, maintaining computational feasibility.
+
+\section{Formalizing the General Formula}
+
+\subsection{Definitions}
+
+\begin{itemize}
+    \item \textbf{Set of All Problems} ($\mathcal{P}$): Includes all P, NP, and hypothetical higher complexity classes.
+    \item \textbf{Set of Solution Methodologies} ($\mathcal{S}$): All conceivable algorithms, formulas, and methods. $|\mathcal{S}| \ge 2^{\aleph_0}$.
+    \item \textbf{General Formula} ($G$): Maps problems to all possible solutions, i.e., $G: \mathcal{P} \to \mathcal{S}$.
+    \item \textbf{Conditional Subset} ($\mathcal{C}_P$): For a problem $P$, $\mathcal{C}_P \subset G$ contains only the methods relevant to $P$. All elements in $G \setminus \mathcal{C}_P$ are zero.
+\end{itemize}
+
+\subsection{Representation Examples}
+
+\subsubsection{Algebraic}
+
+Infinite series $x + y + z + z^2 + z^3 + \dots$ demonstrates how finite problems activate only specific variables.
+
+\subsubsection{Numerical}
+
+\[
+1 = \frac{2}{2}, \quad 1 = \sqrt{1}, \quad 1 = \sin^2(\pi/2) + \cos^2(\pi/2), \quad 1 = \sum_{k=0}^{0} k^0, \dots
+\]
+
+Each representation belongs to $G$; finite problems select a relevant $\mathcal{C}_P$.
+
+\subsubsection{Geometric}
+
+\begin{itemize}
+    \item 1D line segment: multiple representations.
+    \item 2D shapes (triangle, square): edges, rotations, and transformations.
+    \item 3D shapes (cube, tetrahedron): coordinates, volumes, combinatorial arrangements.
+\end{itemize}
+
+\subsubsection{Set-theoretic}
+
+For $S = \{a,b,c\}$, $G$ contains all subsets, unions, intersections, and power sets. Conditional activation selects relevant subsets.
+
+\subsubsection{Computational / NP-type}
+
+\begin{itemize}
+    \item Base-3 counting: count numbers of length $n$ satisfying a property $P$; irrelevant numbers contribute zero.
+    \item Graph coloring: 3 nodes, 3 colors; only valid colorings activated.
+\end{itemize}
+
+\subsubsection{Combinatorial / Coordinate}
+
+2D grids illustrate multiple paths. $G$ contains infinitely many formulas, only relevant ones are active.
+
+\newpage
+
+\section{A New Proposal: P vs NP vs NNP}
+
+\textbf{Speculative Idea:} NNP (Non-reversible NP) extends NP by emphasizing non-injective mappings, where input reconstruction is infeasible.
+
+\subsection{Conceptual Hierarchy}
+
+\begin{itemize}
+    \item \textbf{P problems:} Efficiently solvable. Mapping may be injective; minimal activation subset $\mathcal{C}_P$.
+    \item \textbf{NP problems:} Solutions verifiable efficiently. Mapping reversible in principle but may require large $\mathcal{C}_P$.
+    \item \textbf{NNP problems:} Highly non-injective ($f: I \to O$). Even with known output, reconstructing input is computationally infeasible; subset $\mathcal{C}_P$ cannot easily yield inverse mapping.
+\end{itemize}
+
+\textit{This classification uses conditional subset activation from $G$ to distinguish NNP problems from P and NP.}
+
+\subsection{Binary Example (NNP)}
+
+Problem: Count 0s and 1s in a binary string of length $n$.
+
+\begin{itemize}
+    \item Forward: Output $(n_0, n_1)$ computed linearly; minimal $\mathcal{C}_P$ activated.
+    \item Reverse: $\binom{n}{n_1}$ strings produce same output. Exponentially many possibilities; reconstructing input infeasible.
+    \item Conclusion: Illustrates non-injective, many-to-one property defining NNP. $G$ contains all $\binom{n}{n_1}$ possibilities.
+\end{itemize}
+
+\subsection{Defining NNP Problems}
+
+\begin{enumerate}
+    \item Identify the output: number, set, graph, string, etc.
+    \item Examine forward computability: feasible with activated subset $\mathcal{C}_P$.
+    \item Test non-reversibility: reconstructing input requires exponential resources; multiple inputs map to same output.
+    \item Map to $G$: conceptualize all possible solutions; activate $\mathcal{C}_P$ for instance.
+    \item Classify: Label as NNP if conditions met. Hierarchy:
+    \[
+    P \subset NP \subset NNP
+    \]
+\end{enumerate}
+
+\textit{Example: Counting 0s and 1s in a string illustrates NNP: easy forward computation, infeasible reverse reconstruction.}
+
+\textit{This classification ties back to the general formula, linking conditional subset activation to P, NP, and NNP.}
+
+\newpage
+
+\section{Discussion}
+
+\begin{itemize}
+    \item The general formula $G$ is an abstract, infinitely large structure, not meant to be physically realized.
+    \item Conditional subsets $\mathcal{C}_P$ explain why finite problems are solvable within $G$.
+    \item NNP highlights a conceptual layer beyond NP, emphasizing non-reversibility.
+    \item Connections to fractals, dimensionality, and combinatorial explosion illustrate how infinite structures yield finite, computable outputs.
+    \item Future work could formalize metrics for subset activation, map fractal dimensions to computational complexity, or explore implications for cryptography and irreversible processes.
+\end{itemize}
+
+\section{Conclusion}
+
+This paper proposes a conceptual framework unifying:
+
+\begin{itemize}
+    \item A general formula $G$ containing all possible solutions for all problems.
+    \item Conditional subsets $\mathcal{C}_P$ explaining finite computation.
+    \item A new class NNP, highlighting non-reversibility and many-to-one mappings.
+\end{itemize}
+
+The framework is theoretical, exploratory, and purely conceptual, offering a foundation for further investigation into P vs NP, non-reversibility, and computational complexity.
+
+ \section*{Acknowledgment / Disclosure}
+The ideas, concepts, and theoretical framework in this paper are entirely the original work of the author. AI assistance was used solely for refining the language, improving clarity, and organizing the presentation. All conceptual content and reasoning remain 100\% the author's own.
+
+
+\vfill
+\begin{center}
+\footnotesize © 2025 Yuhenba Rizwan Shah. Licensed under CC BY-NC 4.0.
+\end{center}
+
+
+\end{document}
