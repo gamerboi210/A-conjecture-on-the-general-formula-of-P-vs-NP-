@@ -23,4 +23,6 @@ This repository contains a **conceptual exploration** of a general formula for P
 
 - All conceptual ideas, framework, and reasoning are **100% my own**.  
 - AI was used **only** to refine language, improve clarity, and organize presentation—not to generate the ideas themselves.
+- © 2025 Yuhenba Rizwan Shah. Licensed under Creative Commons Attribution-NonCommercial (CC BY-NC).
+
 
